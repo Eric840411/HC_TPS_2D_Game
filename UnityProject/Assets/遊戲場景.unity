@@ -323,7 +323,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127522717}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b69c7b6b6335a5544b2a093f6a70452b, type: 3}
   m_Name: 
@@ -331,7 +331,7 @@ MonoBehaviour:
   TA: {fileID: 2056004880}
   BR: {fileID: 2131453244}
   De: {fileID: 135505746}
-  stop: {fileID: 0}
+  stop: {fileID: 2147076843}
 --- !u!1 &135505744
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Npoint: 0
   Hpoint: 0
+  pipe: {fileID: 1468862518559083301, guid: 8b1845c99b4ef114993fd97b875a185b, type: 3}
 --- !u!4 &353606782
 Transform:
   m_ObjectHideFlags: 0
@@ -1279,7 +1280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 834fba632b77ee748a94ce7b90f2fc37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 18
+  speed: 6
+  ground: {fileID: 1558720830}
 --- !u!1 &2056004878
 GameObject:
   m_ObjectHideFlags: 0
